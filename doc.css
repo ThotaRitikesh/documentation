@@ -1,0 +1,99 @@
+
+*{
+    margin: 0;
+    padding: 0;
+    scroll-margin: 50px;
+    scroll-behavior: smooth;
+    
+}
+
+#navs li{
+    list-style: none;
+    line-height: 60px;
+    border: 1px solid rgb(181, 180, 180);
+    padding: 0px 8px;
+    
+}
+#navs li:hover{
+    cursor: pointer;
+    background-color: #ccc;
+    transition: 0.3s ease-in-out;
+}
+#navs{
+    width: 250px;
+    height: 100rem;
+    border: 1px solid gray;
+    position:fixed;
+
+}
+#navs a{
+    text-decoration: none;
+    color: black;
+}
+#navs h1{
+    padding: 10px;
+    font-weight: 500;
+    font-size: 23px;
+}
+.left{
+    margin-left: 50px;
+} 
+.left li{
+    margin-bottom: 15px;
+}
+.container{
+    position: absolute;
+    display: flex;
+    flex-direction: column;
+   margin-left: 300px;
+   margin-top: 50px;
+   /* line-height: 30px; */
+   gap: 20px;
+   width: 900px;
+}
+.line{
+    border: 1px solid black;
+    border-bottom: 0;
+}
+.container1{
+    position: absolute;
+    display: flex;
+    flex-direction: column;
+   margin-left: 300px;
+   margin-top:450px;
+   gap: 20px;
+   width: 900px;
+}
+.container2{
+    position: absolute;
+    display: flex;
+    flex-direction: column;
+   margin-left: 300px;
+   margin-top:700px;
+   gap: 20px;
+   width: 900px;
+}
+.container3{
+    position: absolute;
+    display: flex;
+    flex-direction: column;
+   margin-left: 300px;
+   margin-top:1050px;
+   gap: 20px;
+   width: 900px;
+}
+#code{
+    background-color: rgb(200, 200, 200);
+    height: 50px;
+    padding-top: 20px;
+}
+.container4{
+    position: absolute;
+    display: flex;
+    flex-direction: column;
+   margin-left: 300px;
+   margin-top:1300px;
+   gap: 20px;
+   width: 900px;
+   height: 300px;
+}
